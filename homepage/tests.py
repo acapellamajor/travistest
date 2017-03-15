@@ -1,6 +1,7 @@
 from django.test import TestCase
 
 class testingstuff(TestCase):
+
 	def testingmath(self):
 		x=3+4
 		self.assertIs(x==7, True)
@@ -17,9 +18,9 @@ class testingstuff(TestCase):
 		x=9+9
 		self.assertIs(x==19, False)
 
-	def letsdomath(self):
-		x=6
-		f=5
-		self.assertIs(x+f == 13, True) #newedit
+	def testagain(self):
+		x=5
+		self.assertIs(x==5, True)
+
 
 # Create your tests here.
