@@ -20,10 +20,6 @@ class testingstuff(TestCase):
 	def letsdomath(self):
 		x=6
 		f=5
-		if x/f > 5:
-			d=5
-		else:
-			d=6
-		self.assertIs(d+x == 12, True) #newedit
+		self.assertIs(x+f == 12, True) #newedit
 
 # Create your tests here.
