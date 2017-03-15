@@ -17,4 +17,13 @@ class testingstuff(TestCase):
 		x=9+9
 		self.assertIs(x==19, False)
 
+	def letsdomath(self):
+		x=6
+		f=5
+		if x/f > 5:
+			d=5
+		else:
+			d=6
+		assertIs(d+x == 12, True)
+
 # Create your tests here.
