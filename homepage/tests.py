@@ -20,6 +20,6 @@ class testingstuff(TestCase):
 	def letsdomath(self):
 		x=6
 		f=5
-		self.assertIs(x+f == 12, True) #newedit
+		self.assertIs(x+f == 13, True) #newedit
 
 # Create your tests here.
