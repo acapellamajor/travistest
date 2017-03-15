@@ -24,6 +24,6 @@ class testingstuff(TestCase):
 			d=5
 		else:
 			d=6
-		assertIs(d+x == 12, True)
+		self.assertIs(d+x == 12, True)
 
 # Create your tests here.
