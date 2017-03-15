@@ -1,0 +1,16 @@
+language: python
+
+python:
+  - "2.7"
+
+services:
+  - mysql
+
+env:
+  - django=1.10.6 DB=mysql
+
+install:
+  - pip install django
+
+script:
+  - python manage.py test homepage
